@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(8, 50px);
+    grid-template-columns: repeat(8, 50px);
+    border: 1px solid black;
+
+}
+
+.box-chess {
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+.fa-solid{
+    font-size: 35px;
+}
+
+.l-rook{
+    position: absolute;
+    top: 128px;
+    left: 490px;           
+}
+
+.r-rook{
+    position: absolute;
+    top: 128px;
+    left: 840px;   
+}
+.l-rook1{
+    position: absolute;
+    top: 480px;
+    left: 490px; 
+}
+
+.r-rook1{
+    position: absolute;
+    top: 480px;
+    left: 840px; 
+}
+
+.fa-chess-pawn{
+    position: absolute;
+    top: 178px;
+    left: 495px;
+   
+}
+.pawn01{
+    position: absolute;
+    top: 178px;
+    left: 545px;
+}
+.pawn02{
+    position: absolute;
+    top: 178px;
+    left: 595px;
+}
+.pawn03{
+    position: absolute;
+    top: 178px;
+    left: 645px;
+}
+.pawn04{
+    position: absolute;
+    top: 178px;
+    left: 695px;
+}
+.pawn05{
+    position: absolute;
+    top: 178px;
+    left: 745px;
+}
+.pawn06{
+    position: absolute;
+    top: 178px;
+    left: 795px;
+}
+.pawn07{
+    position: absolute;
+    top: 178px;
+    left: 845px;
+}
+.white_pawn01{
+    position: absolute;
+    top: 430px;
+    left: 495px; 
+}
+.white_pawn02{
+    position: absolute;
+    top: 430px;
+    left: 545px; 
+}
+.white_pawn03{
+    position: absolute;
+    top: 430px;
+    left: 595px; 
+}
+.white_pawn04{
+    position: absolute;
+    top: 430px;
+    left: 645px; 
+}
+.white_pawn05{
+    position: absolute;
+    top: 430px;
+    left: 695px; 
+}
+.white_pawn06{
+    position: absolute;
+    top: 430px;
+    left: 745px;
+}
+.white_pawn07{
+    position: absolute;
+    top: 430px;
+    left: 795px; 
+}
+.white_pawn08{
+    position: absolute;
+    top: 430px;
+    left: 845px; 
+}
+
+.l-knight{
+    position: absolute;
+    top: 128px;
+    left: 540px;         
+}
+
+.r-knight{
+    position: absolute;
+    top: 128px;
+    left: 790px; 
+}
+
+.r-knight1{
+    position: absolute;
+    top: 480px;
+    left: 790px; 
+}
+
+
+.l_knight1{
+    position: absolute;
+    top: 480px;
+    left: 540px; 
+    
+}
+
+.l-bishop{
+    position: absolute;
+    top: 128px;
+    left: 590px;   
+}
+.l-bishop1{
+    position: absolute;
+    top: 480px;
+    left: 590px; 
+}
+
+.r-bishop{
+    position: absolute;
+    top: 128px;
+    left: 740px;   
+}
+
+.r-bishop1{
+    position: absolute;
+    top: 480px;
+    left: 740px; 
+}
+
+.queen{
+    position: absolute;
+    top: 128px;
+    left: 640px;   
+}
+
+.queen1{
+    position: absolute;
+    top: 480px;
+    left: 640px; 
+}
+
+.king{
+    position: absolute;
+    top: 128px;
+    left: 690px;   
+}
+
+.king1{
+    position: absolute;
+    top: 480px;
+    left: 690px; 
+}
