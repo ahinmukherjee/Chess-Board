@@ -205,3 +205,20 @@ body {
     top: 480px;
     left: 690px; 
 }
+
+@media(min-width: 320px) and (max-width:375px) {
+
+    .king{
+        position: absolute;
+        top: 28px;
+        left: 200px;   
+    }
+    
+    .king1{
+        position: absolute;
+        top: 480px;
+        left: 690px; 
+    }
+    
+    
+}
