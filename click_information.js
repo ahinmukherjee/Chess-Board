@@ -34,4 +34,12 @@
            
         }
     });
+         // 
+       
+   //       if (innerHTMLOfElement.includes("black")||
+   //       innerHTMLOfElement.includes("white")) {
+
+   //      document.getElementById(idOfElement).style.backgroundColor ="yellow";
+   //      clickedElements.push(i);     
+   //   }
  }
