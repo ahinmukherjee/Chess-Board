@@ -270,3 +270,19 @@ body {
     
 }
 
+@media(min-width: 720px) and (max-width:1020px) {
+
+    .king{
+        position: absolute;
+        top: 50px;
+        left: 200px;   
+    }
+    
+    .king1{
+        position: absolute;
+        top: 480px;
+        left: 690px; 
+    }
+    
+}
+
